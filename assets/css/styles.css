@@ -43,15 +43,23 @@ a {
 }
 /* HEADER */
 .header {
+  display: flex;
+  flex-direction: column;
   position: relative;
   background: #e6f0fe;
   height: 100vh;
 }
-
+.fixed-header {
+  background: #e6f0fe;
+  padding-top: 26px;
+  position: sticky;
+  top: -26px;
+  z-index: 1;
+}
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
 }
 
 .navbar ul {
