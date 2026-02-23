@@ -42,7 +42,7 @@ a {
   opacity: 0.8;
 }
 /* HEADER */
-.header {
+.hero-wrap {
   display: flex;
   flex-direction: column;
   position: relative;
