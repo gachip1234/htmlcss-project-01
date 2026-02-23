@@ -47,7 +47,7 @@ a {
   flex-direction: column;
   position: relative;
   background: #e6f0fe;
-  height: 100vh;
+  height: calc(100vh - 90px);
 }
 .fixed-header {
   background: #e6f0fe;
