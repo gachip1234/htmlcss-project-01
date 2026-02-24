@@ -46,6 +46,7 @@ a {
 .hero-wrap {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: relative;
   background: #e6f0fe;
   height: calc(100vh - 90px);
@@ -95,15 +96,11 @@ a.action-link {
   border-radius: 8px;
 }
 
-.hero {
-  margin-top: 239px;
-}
-
-.hero .infor {
+.hero-wrap .infor {
   width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
   color: #687690;
   font-size: 1.8rem;
   font-weight: 500;
@@ -111,7 +108,7 @@ a.action-link {
   line-height: 1.5;
 }
 
-.hero .title {
+.hero-wrap .title {
   margin-top: 8px;
   color: #000336;
   font-size: 6.2rem;
@@ -119,7 +116,7 @@ a.action-link {
   line-height: 1.19;
 }
 
-.hero .desc {
+.hero-wrap .desc {
   color: #5a6473;
   font-size: 1.8rem;
   line-height: 1.78;
